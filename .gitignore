@@ -1,0 +1,71 @@
+# React.js dependencies
+/node_modules
+
+# Build output
+/build
+/dist
+/Public
+
+# Cache and logs
+.npm
+.npm-debug.log
+.yarn
+.yarn-error.log
+.pnpm-debug.log
+
+# Local env files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Parcel-bundler cache
+.cache
+
+# Next.js build output
+.next
+
+# Nuxt.js build output
+.nuxt
+dist
+
+# Gatsby files
+.cache/
+
+# Vue.js build output
+/dist
+
+# Storybook
+out
+storybook-static
+
+# Temporary files
+tmp
+temp
+*.tmp
+*.swp
+*~
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+
+# Linux
+*~
+# Swap files
+*.swp
+
+# IDEs
+.idea/
+*.iml
+
+# Test coverage
+coverage
+*.lcov

@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist",
+    "module": "ESNext",
+    "target": "ES6",
+    "allowJs": true,
+    "jsx": "react",
+    "lib": ["DOM", "ES6"],
+    "moduleResolution": "Node",
+    "baseUrl": "./src",
+    "strict": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "paths": {
+      "Components": ["Components"],
+      "Pages": ["Pages"],
+      "Models": ["Models"],
+      "Context": ["Context"],
+      "HOC": ["HOC"],
+      "Services": ["Services"],
+      "Widgets": ["Widgets"]
+    }
+  },
+  "include": ["src/**/*"]
+}
